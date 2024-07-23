@@ -1,13 +1,19 @@
 #root {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
   text-align: center;
-  width: 100vw;
 }
 
 h1 {
   background-color: var(--main-bg);
   color: var(--main-txt);
+  font-size: 2.5rem;
   font-weight: bolder;
   padding: 20px;
+  width: 100vw;
 }
 
 .route {
@@ -19,8 +25,19 @@ h1 {
   font-weight: 600;
   margin: 20px auto;
   padding: 12px 40px;
+  transition: all 0.3s ease;
 }
 
 .route a {
   color: inherit;
+  font-size: 1.5rem;
 }
+
+.route:hover {
+  opacity: 0.7;
+}
+
+.route:active {
+  transform: scale(0.9);
+}
+

@@ -1,0 +1,18 @@
+.social-link {
+  border-radius: 6px;
+  color: inherit;
+  margin: 0 12px;
+  transition: all 0.3s;
+}
+
+.social-link:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+
+.social-image {
+  background-color: var(--main-txt);
+  border-radius: 6px;
+  border: 1px solid var(--main-txt);
+  width: 36px;
+}

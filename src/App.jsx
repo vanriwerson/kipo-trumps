@@ -1,4 +1,5 @@
-import MainMenu from './components';
+import Footer from './components/Footer';
+import MainMenu from './components/MainMenu';
 import './App.css';
 
 function App() {
@@ -6,7 +7,9 @@ function App() {
     <>
       <h1>Kipo - Super Trunfo</h1>
       
-      <MainMenu/>
+      <MainMenu />
+
+      <Footer />
     </>
   )
 }
